@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2a5bbe;
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background: rgba(255, 255, 255, 0.308) url('../img/back-ground.jpg') no-repeat center center / cover;
+  padding: 10px;
+}
+
+.main-content {
+  padding: 100px 20px 100px;
+  background-color: #ffffff44;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2a5bbe;
+  font-weight: 900;
+}
+
+.table-caption {
+  font-size: 1.1rem;
+  color: #2a5bbe;
+}
+
+.mondrian-table {
+  height: auto;
+  width: 300px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  align-items: center;
+  border: 5px solid #000000;
+  background-color: white;
+}
+
+/* Default cell style */
+.mondrian-table td {
+  border: 5px solid black;
+}
+
+/* Colors */
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
+
+/* sizing */
+.mondrian-table td.h-12 {
+  height: 12.5px !important;
+}
+
+.mondrian-table td.h-25 {
+  height: 25px !important;
+}
+
+.mondrian-table td.h-37 {
+  height: 37.5px !important;
+}
+
+.mondrian-table td.h-62 {
+  height: 62.5px !important;
+}
+
+.mondrian-table td.h-75 {
+  height: 75px !important;
+}
+
+.mondrian-table td.h-110 {
+  height: 110px !important;
+}
+
+.mondrian-table td.h-150 {
+  height: 150px !important;
+}
+
+.mondrian-table td.w-12 {
+  width: 12.5px !important;
+}
+
+.mondrian-table td.w-37 {
+  width: 37.5px !important;
+}
+
+.mondrian-table td.w-50 {
+  width: 50px !important;
+}
+
+.mondrian-table td.w-75 {
+  width: 75px !important;
+}
+
+.mondrian-table td.w-100 {
+  width: 100px !important;
+}
+
+.mondrian-table td.w-112 {
+  width: 112.5px !important;
+}
+
+.mondrian-table td.w-150 {
+  width: 150px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for images */
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  /* Збільшення елемента при наведенні */
+}
+
+.gallery-caption {
+  font-size: 1.1rem;
+  color: #2a5bbe;
+}
+
+.gallery-image {
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 300px;
+  /* Адаптивність */
+  height: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-image:hover {
+  border-color: #2a5bbe;
+  /* Підсвітка рамки */
+  box-shadow: 0 6px 12px #2a5bbe;
+}
